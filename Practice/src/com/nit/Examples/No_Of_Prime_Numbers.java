@@ -8,8 +8,8 @@ public class No_Of_Prime_Numbers {
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("Enter num: ");
 		int num=scanner.nextInt();
-		int i,j=2;
-		for (i = 1; i <= num; i++) {
+		int j=2;
+		for (int i = 1; i <= num; i++) {
 			for (j = 2; j <= i; j++) {
 				if(i%j == 0) {
 					break;
