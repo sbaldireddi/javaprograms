@@ -1,8 +1,9 @@
 package com.nit.Examples;
 import java.util.Scanner;
 public class PrimeNumber {
+	static Scanner scn=new Scanner(System.in);
     public static void main(String[] agrs){
-    Scanner scn=new Scanner(System.in);
+    
     System.out.print("Enter number : ");
     int num=scn.nextInt();
     int temp=0;

@@ -6,11 +6,11 @@ public class Operators {
         int y=20;
         x=y;
         System.out.println(x==y);
-        System.out.println(x++);
-        System.out.println(x--);
-        System.out.println(--x);
-        System.out.println(++x);
-        System.out.println(++x);
+        System.out.println("x++ "+ x++);
+        System.out.println("x-- "+ x--);
+        System.out.println("--x "+ --x);
+        System.out.println("++x "+ ++x);
+        System.out.println("++x "+ ++x);
         System.out.println(x=30);
         System.out.println(x);
         System.out.println(x==30);
