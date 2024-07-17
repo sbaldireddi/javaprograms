@@ -18,5 +18,7 @@ public class Test03_ListSetAndMapOverride {
         hs.add(e4);System.out.println();
         hs.add(e5);System.out.println();
         System.out.println(hs);
+        System.out.println("************************************************");
+        System.out.println("************************************************");
     }
 }
