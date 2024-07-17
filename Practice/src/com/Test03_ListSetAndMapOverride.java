@@ -6,6 +6,7 @@ import java.util.HashSet;
 
 public class Test03_ListSetAndMapOverride {
     public static void main(String[] args) {
+    	System.out.println("************************************************");
         Employee e1=new Employee(100,"satish","CJ",2000);
         Employee e2=new Employee(100,"satish","CJ",2000);
         Employee e3=new Employee(101,"satish","ADJ",2000);
