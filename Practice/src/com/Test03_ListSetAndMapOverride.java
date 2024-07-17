@@ -11,6 +11,8 @@ public class Test03_ListSetAndMapOverride {
         Employee e3=new Employee(101,"satish","ADJ",2000);
         Employee e4=new Employee(100,"satish",null,2000);
         Employee e5=e4;
+        System.out.println("************************************************");
+        System.out.println("************************************************");
         HashSet<Employee>hs=new HashSet<>();
         hs.add(e1);System.out.println();
         hs.add(e2);System.out.println();
